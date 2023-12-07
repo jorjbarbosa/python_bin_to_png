@@ -44,6 +44,6 @@ pip  install  PyQt5  numpy  Pillow
 -   `image_processing.py`: Contains the image processing functions.
 
 ## License
-This project is licensed under the [MIT License](https://opensource.org/license/mit/).
+This project is licensed under the [MIT License](https://github.com/jorjbarbosa/python_bin_to_png/blob/main/LICENSE).
 
 Feel free to customize this README to provide more details about your project, such as additional features, known issues, or how others can contribute.
