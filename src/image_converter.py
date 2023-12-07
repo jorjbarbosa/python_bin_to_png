@@ -42,7 +42,7 @@ class ImageConverterApp(QMainWindow):
     def get_input_file(self):
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
-        file_name, _ = QFileDialog.getOpenFileName(self, 'Select input file', '', 'All Files (*);;Binary Files (*.bin);;PNG Files (*.png)', options=options)
+        file_name, _ = QFileDialog.getOpenFileName(self, 'Select input file', '', 'Binary Files (*.bin)', options=options)
         
         if file_name:
             self.input_file = file_name
